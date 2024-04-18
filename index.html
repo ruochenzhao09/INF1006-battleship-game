@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battleship Game</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <div id="status">Turn: Player 1</div>
+    <div id="player1" class="gameboard"></div>
+    <div id="ships">
+        <div id="carrier" draggable="true" class="ship">Carrier (5)</div>
+        <div id="battleship" draggable="true" class="ship">Battleship (4)</div>
+        <div id="cruiser" draggable="true" class="ship">Cruiser (3)</div>
+    </div>
+
+    <div id="missiles">
+    </div>
+    <script src="src/battleship.js"></script>
+</body>
+</html>
